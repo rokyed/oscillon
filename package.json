@@ -4,20 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"start": "./node_modules/.bin/electron ."
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rokyed/oscillon.git"
+	"type": "git",
+	"url": "git+https://github.com/rokyed/oscillon.git"
   },
   "author": "Andrei Bazavan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rokyed/oscillon/issues"
+	"url": "https://github.com/rokyed/oscillon/issues"
   },
   "homepage": "https://github.com/rokyed/oscillon#readme",
   "dependencies": {
-    "audio-oscilloscope": "0.0.3",
-    "electron": "^1.7.9"
+	"audio-oscilloscope": "0.0.3",
+	"electron": "^1.7.9"
   }
 }

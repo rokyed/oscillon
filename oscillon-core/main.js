@@ -21,7 +21,6 @@ function init() {
 			fillStyle: 'rgb(0,0,0)',
 			strokeStyle: 'green'
 		},
-		bufferLength: 500
 		});
 
 		// oscilloscope.on('drawFrame', function(osc) {
@@ -47,10 +46,10 @@ function init() {
 		}, startUserMedia, userMediaError);
 	}
 
+
 	function startUserMedia(stream) {
 		var streamSource = audioContext.createMediaStreamSource(stream);
 		oscilloscope.addSource(streamSource);
-		oscilloscope.analyzer.fftSize = 32
 	}
 
 	function userMediaError(error) {
